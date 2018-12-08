@@ -1,0 +1,9 @@
+Regex Expressions //gim
+
+order number: /[^# ]*(?=sequence)/gi
+sequence number: /[^# ]*(?=occasion)/gi
+recipient info: /Recipient Information:\s*(\S+)\s*(\S+)/gi
+
+Product Section
+first choice: /[^\n]*first choice[^]*(?=second choice:)/gi
+second choice: /[^\n]*second choice[^]*(?=card message:)/
